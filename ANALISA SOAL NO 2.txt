@@ -1,0 +1,11 @@
+ANALISA SOAL NO 2
+
+Low Pass Filter (LPF) menghasilkan citra yang lebih halus karena mengurangi noise dengan cara merata-ratakan nilai piksel. Namun detail halus pada citra juga ikut berkurang.
+
+High Pass Filter (HPF) menonjolkan tepi dengan memperkuat perubahan intensitas antar piksel. Hasilnya citra terlihat hanya bagian edge atau garis tepi.
+
+Band Pass Filter (BPF) atau sharpening meningkatkan ketajaman citra dengan mempertahankan detail sekaligus memperkuat tepi.
+
+Dari sisi nilai piksel, LPF cenderung mempertahankan rata-rata, HPF menghasilkan nilai ekstrem (tinggi/rendah), sedangkan BPF meningkatkan kontras lokal.
+
+Dalam domain frekuensi, LPF melewatkan frekuensi rendah, HPF melewatkan frekuensi tinggi, dan BPF merupakan kombinasi keduanya.

@@ -1,0 +1,11 @@
+ANALISA SOAL NO 1
+
+Citra asli memiliki distribusi intensitas grayscale yang normal dengan dominasi pada nilai menengah.
+
+Pada transformasi negatif, nilai intensitas dibalik sehingga area terang menjadi gelap dan area gelap menjadi terang. Hal ini terlihat dari perubahan kontras pada citra yang berlawanan dengan citra asli.
+
+Pada transformasi logaritmik, intensitas rendah (area gelap) diperbesar sehingga detail pada bagian gelap menjadi lebih terlihat. Namun tanpa normalisasi, citra dapat menjadi terlalu terang. Setelah dilakukan normalisasi, distribusi intensitas menjadi lebih seimbang dan kontras tetap terjaga.
+
+Histogram menunjukkan persebaran intensitas piksel. Pada citra asli, distribusi cenderung berada di nilai menengah, sedangkan pada transformasi logaritmik distribusi bergeser sehingga area gelap lebih terangkat.
+
+Kesimpulannya, transformasi negatif cocok untuk analisis kontras, sedangkan transformasi logaritmik lebih efektif untuk meningkatkan detail pada area gelap.
